@@ -33,6 +33,13 @@ const store = useGameStore()
   margin-bottom: 1rem;
 }
 
+@media (max-width: 767px) {
+  .header {
+    width: min(84vw, 480px);
+    margin-bottom: 0.5rem;
+  }
+}
+
 .difficulty-badge {
   font-size: 0.75rem;
   font-weight: 600;

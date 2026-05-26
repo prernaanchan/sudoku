@@ -49,7 +49,7 @@ const store = useGameStore()
 
 <style>
 .game-page {
-  min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,6 +64,18 @@ const store = useGameStore()
   color: #1e1b4b;
   margin: 0 0 1.5rem;
   letter-spacing: -0.02em;
+}
+
+@media (max-width: 767px) {
+  .game-page {
+    padding: 0.75rem 1rem;
+    justify-content: flex-start;
+    padding-top: max(0.75rem, env(safe-area-inset-top));
+  }
+  .game-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .win-modal {

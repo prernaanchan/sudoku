@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(npx vue-tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(npx playwright *)",
+      "Bash(cp /tmp/verify_sudoku.mjs /Users/Work/Desktop/sudoku/verify_sudoku.mjs)",
+      "Bash(node verify_sudoku.mjs)",
+      "Bash(node *)",
+      "Bash(curl -s http://localhost:5199)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(npx vercel *)"
+    ]
+  }
+}

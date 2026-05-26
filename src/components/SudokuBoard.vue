@@ -84,6 +84,10 @@ function isSameValue(r: number, c: number) {
   transition: box-shadow 0.2s;
 }
 
+@media (max-width: 767px) {
+  .board { width: min(84vw, 480px); }
+}
+
 .board.notes-active {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18), 0 0 0 3px #818cf8;
 }

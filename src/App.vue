@@ -68,13 +68,23 @@ const store = useGameStore()
 
 @media (max-width: 767px) {
   .game-page {
-    padding: 0.75rem 1rem;
-    justify-content: flex-start;
-    padding-top: max(0.75rem, env(safe-area-inset-top));
+    height: 100svh;
+    box-sizing: border-box;
+    padding: max(0.75rem, env(safe-area-inset-top)) 1rem max(0.75rem, env(safe-area-inset-bottom));
+    justify-content: center;
   }
   .game-title {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 374px) {
+  .game-page {
+    padding: max(0.5rem, env(safe-area-inset-top)) 0.75rem max(0.5rem, env(safe-area-inset-bottom));
+  }
+  .game-title {
+    margin-bottom: 0.3rem;
   }
 }
 

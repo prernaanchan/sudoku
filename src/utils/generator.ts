@@ -21,7 +21,7 @@ const SEED: number[][] = [
 ]
 
 const CELLS_TO_REMOVE: Record<Difficulty, number> = {
-  easy: 5,
+  easy: 36,
   medium: 46,
   hard: 54,
 }

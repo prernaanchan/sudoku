@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Cell } from '../types/sudoku'
 
-const props = defineProps<{
+defineProps<{
   cell: Cell
   isSelected: boolean
   isHighlighted: boolean

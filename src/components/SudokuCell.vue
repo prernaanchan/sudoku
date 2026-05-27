@@ -67,7 +67,7 @@ defineProps<{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(7px, 1.2vw, 11px);
+  font-size: clamp(9px, 1.7vw, 15px);
   font-weight: 600;
   color: #6366f1;
   line-height: 1;

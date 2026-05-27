@@ -126,20 +126,20 @@ const completedDigits = computed(() => {
 /* ── Mobile: 2-row compact layout ───────────────── */
 @media (max-width: 767px) {
   .numpad {
-    width: min(84vw, 480px);
-    margin-top: 0.5rem;
+    width: min(90vw, 480px);
+    margin-top: 1rem;
   }
 
   /* Numbers stay 3×3 grid */
   .num-grid {
-    gap: 4px;
-    margin-bottom: 6px;
+    gap: 6px;
+    margin-bottom: 8px;
   }
 
   /* Controls: [Notes][Clear][Undo][Reset] side by side */
   .controls {
     flex-direction: row;
-    gap: 4px;
+    gap: 6px;
   }
   .controls > * { flex: 1; }
 
@@ -149,8 +149,8 @@ const completedDigits = computed(() => {
 
 /* ── Number buttons ──────────────────────────────── */
 .num-btn {
-  padding: 0.75rem 0;
-  font-size: 1.125rem;
+  padding: 1.1rem 0;
+  font-size: 1.6rem;
   font-weight: 600;
   border-radius: 8px;
   border: 1.5px solid #e5e7eb;
@@ -165,7 +165,7 @@ const completedDigits = computed(() => {
 .num-btn--done { background: #f0fdf4; border-color: #86efac; color: #16a34a; opacity: 0.55; }
 
 @media (max-width: 767px) {
-  .num-btn { padding: 0.55rem 0; font-size: 0.9rem; border-radius: 6px; }
+  .num-btn { padding: 0.8rem 0; font-size: 1.25rem; border-radius: 6px; }
 }
 
 /* ── Control buttons (shared base) ──────────────── */
